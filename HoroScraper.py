@@ -9,12 +9,13 @@ import os
 import datetime
 import json
 
-path = os.getcwd()
+# Used if the program is set up through cron
+#path = os.getcwd()
 
-if os.path.exists(f'{path}/Horoscopes') == False:
-    os.mkdir(f'{path}/Horoscopes')
+#if os.path.exists(f'{path}/Horoscopes') == False:
+#    os.mkdir(f'{path}/Horoscopes')
 
-os.chdir(f'{path}/Horoscopes')
+#os.chdir(f'{path}/Horoscopes')
 
 
 #gets today's date
