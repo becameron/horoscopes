@@ -30,6 +30,7 @@ try:
     file = open('horoscopes.json','r')
     horoscopes = json.load(file)
     file.close()
+    newfile = False
 
 # if the file isn't found, create a new variable
 except FileNotFoundError:
